@@ -1,13 +1,15 @@
 package main // import "bou.ke/babelfish"
 
 import (
-	"bou.ke/babelfish/translate"
 	"flag"
 	"fmt"
 	"io"
-	"mvdan.cc/sh/v3/syntax"
 	"os"
 	"path/filepath"
+
+	"github.com/seruman/babelfish/translate"
+
+	"mvdan.cc/sh/v3/syntax"
 )
 
 type Options struct {

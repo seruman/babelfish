@@ -1,4 +1,4 @@
-module bou.ke/babelfish
+module github.com/seruman/babelfish
 
 go 1.19
 
